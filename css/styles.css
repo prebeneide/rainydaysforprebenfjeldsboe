@@ -9,3 +9,7 @@ nav li {
 nav ul {
   padding: 0px;
 }
+nav a {
+  color: #025951;
+  text-decoration: none;
+}
