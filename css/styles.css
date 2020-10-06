@@ -1,3 +1,7 @@
 body {
-  background-color: orange;
+  background-color: whitesmoke;
+}
+
+nav li {
+  display: inline-block;
 }
