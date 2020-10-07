@@ -3,6 +3,10 @@ body {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 nav li {
   display: inline-block;
 }
