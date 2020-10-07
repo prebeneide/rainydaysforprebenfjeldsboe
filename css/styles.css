@@ -28,3 +28,8 @@ nav a:hover {
   background-color: #025951;
   color: white;
 }
+
+footer::before,
+footer::after {
+  content: "/";
+}
