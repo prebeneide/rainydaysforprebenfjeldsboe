@@ -32,4 +32,7 @@ nav a:hover {
 footer::before,
 footer::after {
   content: "/";
+  color: #025951;
+  font-size: 30px;
+  font-weight: bold;
 }
