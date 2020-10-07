@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap")
-    rel= "stylesheet" >;
+  font-family: "Montserrat", sans-serif;
+  src: url "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
 }
 
 body {
