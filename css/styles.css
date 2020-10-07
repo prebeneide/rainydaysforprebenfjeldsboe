@@ -23,3 +23,8 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+.active {
+  background-color: #025951;
+  color: white;
+}
