@@ -1,15 +1,14 @@
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: ("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  font-family: 'montserrat'
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style>
 }
 
 body {
   background-color: whitesmoke;
-  font-family: "Montserrat", Verdana, sans-serif;
-}
 
 h1 {
-  font-family: "Montserrat", "Arial Narrow", Arial, sans-serif;
   color: #025951;
 }
 
