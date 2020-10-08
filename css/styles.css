@@ -1,15 +1,14 @@
 @font-face {
-  font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-}
+  font-family: 'Calistoga';
+  src: url('https://fonts.gstatic.com/s/calistoga/v1/6NUU8F2OJg6MeR7l4e0fs8wB.woff2') format('woff2');
 
 body {
-  font-family: "Open Sans";
+  font-family: 'Open Sans', Arial, sans-serif;
   background-color: whitesmoke;
 }
 
 h1 {
+  font-family: 'Calistoga'
   color: #025951;
 }
 
