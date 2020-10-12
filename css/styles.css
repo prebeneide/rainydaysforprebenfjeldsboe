@@ -42,6 +42,6 @@ img {
 }
 
 h2 {
-  background-image: url(images/Bilder/dominik-jirovsky-re2lZOB2XvY-unsplash.jpg)
-)
+  background-image: <img src=
+    "images/Bilder/dominik-jirovsky-re2lZOB2XvY-unsplash.jpg" / >;
 }
