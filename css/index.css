@@ -41,7 +41,8 @@ img {
   width: 100%;
 }
 
-h2 {
-  background-image: <img src=
-    "images/Bilder/dominik-jirovsky-re2lZOB2XvY-unsplash.jpg" / >;
+.content {
+  background-image: url("../images/Bilder/dominik-jirovsky-re2LZOB2XvY-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
