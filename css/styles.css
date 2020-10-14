@@ -54,3 +54,17 @@ img {
   background-repeat: no-repeat;
   min-height: 900px;
 }
+
+.campingimagelink {
+  background-image: url("../images/Bilder/camping.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+}
+
+.hikingimagelink {
+  background-image: url("../images/Bilder/hikingreal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+}
