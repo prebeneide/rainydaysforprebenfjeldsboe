@@ -106,3 +106,7 @@ img {
   background-repeat: no-repeat;
   min-height: 600px;
 }
+
+.form__input {
+  display: block;
+}
