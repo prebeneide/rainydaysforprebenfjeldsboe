@@ -80,3 +80,10 @@ img {
   background-repeat: no-repeat;
   min-height: 300px;
 }
+
+.womenheader {
+  background-image: url("../images/bilder/woman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
