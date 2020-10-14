@@ -29,6 +29,11 @@ nav a:hover {
   color: white;
 }
 
+footer {
+  background-color: #0b3a40;
+  color: white;
+}
+
 footer::before,
 footer::after {
   content: "/";
