@@ -50,4 +50,6 @@ img {
 
 .skiingimagelink {
   background-image: url("../images/Bilder/skiing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
