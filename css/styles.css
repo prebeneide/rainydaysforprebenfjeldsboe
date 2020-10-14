@@ -73,3 +73,12 @@ img {
   background-repeat: no-repeat;
   min-height: 900px;
 }
+
+.menheader {
+  background-image: url("../images/bilder/menheader.jpg")
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+
+
+}
