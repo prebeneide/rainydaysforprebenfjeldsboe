@@ -48,6 +48,11 @@ img {
   min-height: 900px;
 }
 
+.specialities {
+  background-color: #025951;
+  min-height: 300px;
+}
+
 .skiingimagelink {
   background-image: url("../images/Bilder/skiing.jpg");
   background-size: cover;
