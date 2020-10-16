@@ -8,6 +8,10 @@ h1 {
   color: #025951;
 }
 
+.navelement {
+  text-align: center;
+}
+
 nav li {
   display: inline-block;
 }
