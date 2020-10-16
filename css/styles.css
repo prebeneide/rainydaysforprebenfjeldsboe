@@ -10,6 +10,10 @@ h1 {
 
 .navelement {
   text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav li {
@@ -23,6 +27,7 @@ nav ul {
 nav a {
   color: #025951;
   text-decoration: none;
+  padding: 10px;
 }
 
 nav a:hover {
