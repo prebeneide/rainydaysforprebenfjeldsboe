@@ -40,8 +40,8 @@ nav a:hover {
 }
 
 .mainlogo {
-  width: 133;
-  height: 72;
+  max-width: 133;
+  max-height: 72;
 }
 
 /* Footer */
