@@ -39,6 +39,11 @@ nav a:hover {
   color: white;
 }
 
+.mainlogo {
+  width: 133;
+  height: 72;
+}
+
 /* Footer */
 
 footer {
