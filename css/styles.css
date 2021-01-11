@@ -9,7 +9,7 @@ h1 {
 }
 
 .navelement {
-  text-align: center;
+  text-align: left;
   background: white;
   position: fixed;
   top: 0;
@@ -40,8 +40,9 @@ nav a:hover {
 }
 
 .mainlogo {
-  max-width: 133;
-  max-height: 72;
+  max-width: 17%;
+  max-height: 17%;
+  left: 0;
 }
 
 /* Footer */
