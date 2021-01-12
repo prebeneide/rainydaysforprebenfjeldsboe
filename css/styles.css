@@ -14,14 +14,16 @@ h1 {
   position: fixed;
   top: 0;
   width: 100%;
+  border: 2px dashed red;
 }
 
 nav li {
   display: inline-block;
+  border: 2px dashed blue;
 }
 
 nav ul {
-  padding: 20px;
+  border: 2px dashed green;
 }
 
 nav a {
