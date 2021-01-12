@@ -20,6 +20,7 @@ h1 {
 nav li {
   display: inline-block;
   border: 2px dashed blue;
+  margin-left: 40px;
 }
 
 nav ul {
@@ -44,7 +45,6 @@ nav a:hover {
 .mainlogo {
   max-width: 17%;
   max-height: 17%;
-  border: 2px;
 }
 
 /* Footer */
