@@ -71,7 +71,8 @@ img {
 }
 
 .maindiv {
-  margin: 120px;
+  margin: 140px;
+  margin-top: 160px;
 }
 
 .content {
@@ -115,6 +116,13 @@ img {
   background-position: top;
 }
 
+.menfont {
+  font-size: 4rem;
+  color: white;
+  padding-top: 350px;
+  padding-left: 830px;
+}
+
 .womenheader {
   background-image: url("../images/bilder/woman.jpg");
   background-size: cover;
@@ -123,12 +131,26 @@ img {
   background-position: bottom;
 }
 
+.womenfont {
+  font-size: 4rem;
+  color: white;
+  padding-top: 130px;
+  padding-left: 80px;
+}
+
 .contactusheader {
   background-image: url("../images/bilder/contactus.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 500px;
   background-position: center;
+}
+
+.contactusfont {
+  font-size: 4rem;
+  color: white;
+  padding-top: 200px;
+  padding-left: 600px;
 }
 
 .aboutheader {
@@ -140,8 +162,10 @@ img {
 }
 
 .aboutusfont {
-  position: top;
-  z-index: 1000;
+  font-size: 4rem;
+  color: white;
+  padding-top: 350px;
+  padding-left: 80px;
 }
 
 .form__input {
