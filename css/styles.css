@@ -111,28 +111,37 @@ img {
   background-image: url("../images/bilder/menheader.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 500px;
+  background-position: top;
 }
 
 .womenheader {
   background-image: url("../images/bilder/woman.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 500px;
+  background-position: bottom;
 }
 
 .contactusheader {
   background-image: url("../images/bilder/contactus.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 500px;
+  background-position: center;
 }
 
 .aboutheader {
   background-image: url("../images/bilder/about.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 500px;
+  background-position: center;
+}
+
+.aboutusfont {
+  position: top;
+  z-index: 1000;
 }
 
 .form__input {
