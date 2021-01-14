@@ -50,6 +50,41 @@ nav a:hover {
   max-height: 17%;
 }
 
+.newcollectionsectionflex {
+  margin-top: 60px;
+  margin-bottom: 45px;
+  display: flex;
+  border: 2px dashed red;
+}
+
+.newcollectionheading {
+  font-family: Montserrat;
+  font-size: 80px;
+  flex: 1;
+  border: 2px dashed lightblue;
+}
+
+.firstpic {
+  width: 469px;
+  height: 586px;
+  margin-left: 153px;
+  flex: 1;
+  border: 2px dashed green;
+}
+
+.explorebutton {
+  font-size: 15px;
+  text-align: center;
+  background-color: #025951;
+  color: white;
+  display: block;
+  margin-left: 0px;
+  margin-right: 300px;
+  margin-top: 78px;
+  padding: 15px;
+  border: 2px dashed lightgreen;
+}
+
 /* Footer */
 
 footer {
@@ -72,7 +107,8 @@ img {
 
 .maindiv {
   margin: 140px;
-  margin-top: 160px;
+  margin-top: 113px;
+  border: 2px dashed purple;
 }
 
 .content {
@@ -121,6 +157,25 @@ img {
   color: white;
   padding-top: 350px;
   padding-left: 830px;
+}
+
+.menproductsgrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  border: 2px dashed blue;
+}
+
+.menproductsgrid div {
+  background: #025951;
+  display: flex;
+  flex-direction: column;
+}
+
+.menproductsgrid img {
+  height: 280px;
+  width: 350px;
 }
 
 .womenheader {
