@@ -67,7 +67,7 @@ nav a:hover {
 .firstpic {
   width: 469px;
   height: 586px;
-  margin-left: 153px;
+  margin-left: 127px;
   flex: 1;
   border: 2px dashed green;
 }
@@ -79,7 +79,7 @@ nav a:hover {
   color: white;
   display: block;
   margin-left: 0px;
-  margin-right: 300px;
+  margin-right: 350px;
   margin-top: 78px;
   padding: 15px;
   border: 2px dashed lightgreen;
@@ -168,10 +168,11 @@ img {
 }
 
 .productsgrid div {
-  background: #025951;
+  background: white;
   display: flex;
   flex-direction: column;
   text-align: center;
+  color: #025951;
 }
 
 .productsgrid img {
