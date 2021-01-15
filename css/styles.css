@@ -171,11 +171,13 @@ img {
   background: #025951;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .productsgrid img {
   height: 280px;
   width: 350px;
+  margin-left: 13px;
 }
 
 .womenheader {
