@@ -111,11 +111,19 @@ img {
   border: 2px dashed purple;
 }
 
-.content {
+.areyoureadysection {
   background-image: url("../images/Bilder/adventure.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 900px;
+  background-position: center;
+}
+
+.areyoureadytext {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  padding-top: 300px;
 }
 
 .productsheader {
@@ -173,6 +181,7 @@ img {
   flex-direction: column;
   text-align: center;
   color: #025951;
+  border: 1px solid #025951;
 }
 
 .productsgrid img {
