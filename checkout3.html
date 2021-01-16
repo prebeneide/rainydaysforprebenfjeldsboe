@@ -19,21 +19,24 @@
           alt="Rainy Days Logo"
         />
         <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
+        <li><a href="men.html" class="active">Men</a></li>
+        <li><a href="women.html">Women</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main class="maindiv">
-    <section>
-      <h1>Checkout 3</h1>
-    </section>
+    <section class="disapearingcontainer"></section>
+    <div class="shoppingcartheader">
+      <h1>Checkout</h1>
+    </div>
+
     <section>
       <form action="form-success.php" method="POST">
         <fieldset>
-          <legend>Your details</legend>
-          <label for="name">Your name</label>
+          <legend>Your information</legend>
+          <label for="firstname">First name:</label>
           <input
             type="text"
             name="name"
@@ -41,9 +44,58 @@
             class="form__input"
             required
           />
-          <label for="phone">Your phonenumber</label>
+
+          <label for="lastname">Last name:</label>
+          <input
+            type="text"
+            name="lastname"
+            id="name"
+            class="form__input"
+            required
+          />
+
+          <label for="adress">Adress:</label>
+          <input
+            type="text"
+            name="adress"
+            id="adress"
+            class="form__input"
+            required
+          />
+
+          <label for="postnr">Postnr:</label>
+          <input
+            type="number"
+            name="postnr"
+            id="postnr"
+            class="form__input"
+            required
+          />
+
+
+          <label for="city">City:</label>
+          <input
+            type="text"
+            name="city"
+            id="name"
+            class="form__input"
+            required
+          />
+
+          <label for="country">Country:</label>
+          <input
+            type="text"
+            name="country"
+            id="name"
+            class="form__input"
+            required
+          />
+
+
+
+          <label for="phone">Your phonenumber:</label>
           <input type="tel" name="phone" id="phone" class="form__input" />
-          <label for="email">Your email address</label>
+          <label for="email">Your email address:</label>
           <input
             type="email"
             name="email"
@@ -51,29 +103,22 @@
             class="form__input"
             required
           />
-          <p>Select your gender</p>
-          <input type="radio" id="female" name="gender" value="female" />
-          <label for="female">Female</label>
-          <input type="radio" id="male" name="gender" value="male" />
-          <label for="male">Male</label>
-          <input
-            type="radio"
-            id="undisclosed"
-            name="gender"
-            value="undisclosed"
-          />
-          <label for="undisclosed">Undisclosed</label>
-        </fieldset>
-        <fieldset>
-          <legend>Your purchase</legend>
-          <select name="product">
-            <option value="product-one">Product One</option>
-            <option value="product-two">Product Two</option>
-            <option value="product-three">Product Three</option>
-          </select>
-        </fieldset>
-        <input type="submit" value="Buy product" />
-      </form>
+
+          <a href="methodofpayment4.html" class="proceedtopayment">Proceed to payment</a>
+         
+
+    <section class="totalsum">
+      <div class="firstline">
+        <p>Total sum:</p>
+        <p>1 x Product</p>
+        <p>Freight</p>
+        <p>Total sum (incl.tax)</p>
+      </div>
+      <div class="secondline">
+        <p>2.999,-</p>
+        <p>Free</p>
+        <p>2.999,-</p>
+      </div>
     </section>
   </main>
   <footer>
