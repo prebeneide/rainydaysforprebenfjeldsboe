@@ -296,38 +296,58 @@ img {
   border: 3px dashed yellowgreen;
 }
 
+.productheading h1 {
+  margin-left: 10px;
+}
+
+.productheading p {
+  margin-left: 10px;
+}
+
 .buybutton {
   background: #025951;
   color: white;
   padding: 20px;
+  margin-left: 10px;
 }
 
 .str {
-  padding-top: 10px;
-  margin-left: -100px;
+  margin-top: 35px;
+  margin-left: 10px;
 }
 
-.str li {
+.str a {
   border: 1px solid #025951;
-  margin-right: -20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.str li:hover {
+.str a:hover {
   background: #0b3a40;
+  color: white;
 }
 
 .price {
-  padding: 30px;
-  font-size: 24px;
+  padding: 20px;
+
+  font-size: 35px;
+}
+
+.colorpickerdiv {
+  margin-top: 50px;
 }
 
 .colorpicker a {
   border: 1px solid #025951;
   padding: 7px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 13px;
+  padding-right: 13px;
   margin: 10px;
   border-radius: 100% 100% 100% 100%;
+}
+
+.colorpicker a:hover {
+  border: 3px solid #025951;
 }
 
 .red {
@@ -344,4 +364,15 @@ img {
 
 .grey {
   background: #555756;
+}
+
+.othercolors {
+  height: 150px;
+  background: hotpink;
+  margin-left: 10px;
+}
+
+.othercolors img {
+  height: 106px;
+  width: 132px;
 }
