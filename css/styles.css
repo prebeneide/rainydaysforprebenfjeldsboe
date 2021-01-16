@@ -291,7 +291,23 @@ img {
 }
 
 .productheading {
-  flex: 2;
+  flex: 1;
   color: #025951;
   border: 3px dashed yellowgreen;
+}
+
+.buybutton {
+  background: #025951;
+  color: white;
+  padding: 20px;
+}
+
+.str {
+  padding-top: 10px;
+  margin-left: -130px;
+}
+
+.price {
+  padding: 30px;
+  font-size: 24px;
 }
