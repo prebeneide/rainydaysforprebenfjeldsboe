@@ -75,9 +75,14 @@ nav a:hover {
   margin-right: 350px;
   margin-top: 78px;
   padding: 15px;
+  text-decoration: none;
   border: 3px dashed orange;
 }
 
+.explorebutton:hover {
+  background: #0b3a40;
+  font-size: 17px;
+}
 /* Footer */
 
 footer {
@@ -307,8 +312,15 @@ img {
 .buybutton {
   background: #025951;
   color: white;
+  font-size: 15px;
   padding: 20px;
   margin-left: 10px;
+  text-decoration: none;
+}
+
+.buybutton:hover {
+  background: #0b3a40;
+  font-size: 17px;
 }
 
 .str {
@@ -347,7 +359,7 @@ img {
 }
 
 .colorpicker a:hover {
-  border: 3px solid #025951;
+  border: 4px solid #0b3a40;
 }
 
 .red {
@@ -449,26 +461,41 @@ img {
 }
 
 .proceed {
+  text-decoration: none;
+  font-size: 15px;
   padding: 20px;
   background: white;
   border: 2px solid #0b3a40;
   color: #0b3a40;
   display: block;
   margin-top: 50px;
-  margin-left: 925px;
+  margin-left: 910px;
   margin-right: 10px;
 }
 
+.proceed:hover {
+  background: #0b3a40;
+  color: white;
+  font-size: 17px;
+}
+
 .proceedtopayment {
+  font-size: 15px;
+  text-decoration: none;
   padding: 20px;
   background: #025951;
-  border: 4px solid #0b3a40;
+  border: 2px solid #0b3a40;
   color: white;
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-right: 910px;
   text-align: center;
+}
+
+.proceedtopayment:hover {
+  background: #0b3a40;
+  font-size: 1px;
 }
 
 .yourinformation {
@@ -493,10 +520,6 @@ img {
 .expirationyear {
   width: 16px;
   display: block;
-}
-
-.proceedtopayment:hover {
-  background: #0b3a40;
 }
 
 .ordercompletedtext {
