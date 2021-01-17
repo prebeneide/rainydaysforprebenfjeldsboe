@@ -462,15 +462,59 @@ img {
 .proceedtopayment {
   padding: 20px;
   background: #025951;
-  border: 2px solid #0b3a40;
+  border: 4px solid #0b3a40;
   color: white;
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-right: 910px;
+  text-align: center;
 }
 
 .yourinformation {
   color: #025951;
   font-size: 30px;
+}
+
+.chooseyourpaymentoption {
+  color: #025951;
+  font-size: 30px;
+}
+
+.cvc {
+  width: 20px;
+}
+
+.expirationmonth {
+  width: 16px;
+  display: block;
+}
+
+.expirationyear {
+  width: 16px;
+  display: block;
+}
+
+.proceedtopayment:hover {
+  background: #0b3a40;
+}
+
+.ordercompletedtext {
+  font-size: 30px;
+  color: #025951;
+  text-align: center;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.contactussection {
+  background-color: #025951;
+  color: white;
+  padding: 120px;
+}
+
+.aboutusdiv {
+  background-color: #025951;
+  color: white;
+  padding: 120px;
 }

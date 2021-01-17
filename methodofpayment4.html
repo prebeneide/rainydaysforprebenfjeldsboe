@@ -27,35 +27,41 @@
     </nav>
   </header>
   <main class="maindiv">
+    <section class="disapearingcontainer"></section>
+    <div class="shoppingcartheader">
+      <h1>Checkout</h1>
+    </div>
     <section>
-      <h1>Method of payment 4</h1>
-    </section>
-    <p>Select your gender</p>
-    <input type="radio" id="female" name="gender" value="female" />
-    <label for="female">Female</label>
-    <input type="radio" id="male" name="gender" value="male" />
-    <label for="male">Male</label>
+      <form action="form-success.php" method="POST">
+        <fieldset>
+          <legend class="chooseyourpaymentoption">Choose your paymentmethod</legend>
+    <input type="radio" id="creditcard" name="paymentmethod" value="creditcard" />
+    <label for="creditcard">Credit Card</label>
+    <input type="radio" id="paypal" name="paymentmethod" value="paypal" />
+    <label for="paypal">PayPal</label>
     <input
       type="radio"
-      id="undisclosed"
-      name="gender"
-      value="undisclosed"
+      id="invoice"
+      name="paymentmethod"
+      value="invoice"
     />
-    <label for="undisclosed">Undisclosed</label>
+    <label for="invoice">Invoice</label>
   </fieldset>
-
-
-  
-  <fieldset>
-    <legend>Your purchase</legend>
-    <select name="product">
-      <option value="product-one">Product One</option>
-      <option value="product-two">Product Two</option>
-      <option value="product-three">Product Three</option>
-    </select>
-  </fieldset>
-  <input type="submit" value="Buy product" />
+  <a href="pay5.html" class="proceedtopayment">Proceed to payment</a>
 </form>
+</section>
+<section class="totalsum">
+  <div class="firstline">
+    <p>Total sum:</p>
+    <p>1 x Product</p>
+    <p>Freight</p>
+    <p>Total sum (incl.tax)</p>
+  </div>
+  <div class="secondline">
+    <p>2.999,-</p>
+    <p>Free</p>
+    <p>2.999,-</p>
+  </div>
 </section>
   </main>
   <footer>

@@ -19,16 +19,51 @@
           alt="Rainy Days Logo"
         />
         <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
+        <li><a href="men.html" class="active">Men</a></li>
+        <li><a href="women.html">Women</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main class="maindiv">
+    <section class="disapearingcontainer"></section>
+    <div class="shoppingcartheader">
+      <h1>Checkout</h1>
+    </div>
     <section>
-      <h1>Pay 5</h1>
-    </section>
+      <form action="form-success.php" method="POST">
+        <fieldset>
+          <legend class="yourinformation">Credit Card Information</legend>
+
+<section>
+  <form>
+    <label for="creditcard">Credit Card Number:</label>
+          <input type="creditcard" name="creditcard" id="creditcard" class="form__input" />
+          <label for="nameoncard">Name on Card:</label>
+          <input type="nameoncard" name="nameoncard" id="nameoncard" class="form__input" />
+          <label for="expirationdate">Expiration Month:</label>
+          <input type="expirationmonth" name="expirationmonth" id="expirationmonth" class="expirationmonth" />
+          <label for="expirationyear">Expiration Year:</label>
+          <input type="expirationyear" name="expirationyear" id="expirationyear" class="expirationyear" />
+          <label for="cvc">CVC:</label>
+          <input type="cvc" name="cvc" id="cvc" class="cvc" />
+          <a href="ordercompleted6.html" class="proceedtopayment">Make Payment</a>
+  </form>
+  </section>
+  <section class="totalsum">
+    <div class="firstline">
+      <p>Total sum:</p>
+      <p>1 x Product</p>
+      <p>Freight</p>
+      <p>Total sum (incl.tax)</p>
+    </div>
+    <div class="secondline">
+      <p>2.999,-</p>
+      <p>Free</p>
+      <p>2.999,-</p>
+    </div>
+  </section>
   </main>
   <footer>
     <p>
