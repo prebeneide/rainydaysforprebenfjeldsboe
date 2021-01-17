@@ -152,19 +152,25 @@ img {
 }
 
 .skiingtextlink {
-  text-align: center;
+  text-decoration: none;
+  display: block;
   color: #025951;
-  font-size: 60px;
-  padding-top: 100px;
+  font-size: 80px;
+  margin-left: 400px;
+  margin-right: 440px;
+  margin-top: 170px;
   border: 3px dashed yellow;
 }
 
 .campingtextlink {
-  text-align: center;
+  text-decoration: none;
+  display: block;
   color: #025951;
-  font-size: 60px;
-  padding-top: 140px;
-  border: 3px dashed grey;
+  font-size: 80px;
+  margin-left: 400px;
+  margin-right: 440px;
+  margin-top: 170px;
+  border: 3px dashed yellow;
 }
 .campingimagelink {
   background-image: url("../images/Bilder/camping.jpg");
@@ -175,10 +181,14 @@ img {
 }
 
 .hikingtextlink {
-  text-align: center;
+  text-decoration: none;
+  display: block;
   color: #025951;
-  font-size: 60px;
-  border: 3px dashed coral;
+  font-size: 80px;
+  margin-left: 400px;
+  margin-right: 440px;
+  margin-top: 80px;
+  border: 3px dashed yellow;
 }
 
 .hikingimagelink {
@@ -279,7 +289,7 @@ img {
 
 .disapearingcontainer {
   height: 54px;
-  background: lime;
+  background: white;
 }
 
 .chosenproductflex {
@@ -380,7 +390,6 @@ img {
 
 .othercolors {
   height: 150px;
-  background: hotpink;
   margin-left: 10px;
 }
 
