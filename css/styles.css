@@ -47,14 +47,12 @@ nav a:hover {
 .newcollectionsectionflex {
   padding-top: 60px;
   display: flex;
-  border: 3px dashed blue;
 }
 
 .newcollectionheading {
   font-family: Montserrat;
   font-size: 80px;
   flex: 1;
-  border: 3px dashed palegreen;
 }
 
 .firstpic {
@@ -62,7 +60,6 @@ nav a:hover {
   height: 586px;
   margin-left: 127px;
   flex: 1;
-  border: 3px dashed purple;
 }
 
 .explorebutton {
@@ -76,7 +73,6 @@ nav a:hover {
   margin-top: 78px;
   padding: 15px;
   text-decoration: none;
-  border: 3px dashed orange;
 }
 
 .explorebutton:hover {
@@ -101,13 +97,11 @@ footer::after {
 
 img {
   width: 100%;
-  border: 3px dashed fuchsia;
 }
 
 .maindiv {
   margin: 140px;
   margin-top: 113px;
-  border: 3px dashed greenyellow;
 }
 
 .areyoureadysection {
@@ -116,7 +110,6 @@ img {
   background-repeat: no-repeat;
   min-height: 700px;
   background-position: center;
-  border: 3px dashed paleturquoise;
 }
 
 .areyoureadytext {
@@ -126,21 +119,19 @@ img {
   padding-top: 150px;
   margin-left: 50px;
   margin-right: 50px;
-  border: 3px dashed deepskyblue;
 }
 
 .productsheader {
   background-color: #025951;
-  min-height: 300px;
+  height: 300px;
   text-align: center;
   color: white;
-  border: 3px dashed orange;
 }
 
 .ourproductstext {
+  display: block;
   font-size: 60px;
-  padding-top: 50px;
-  border: 3px dashed blueviolet;
+  padding-top: 100px;
 }
 
 .skiingimagelink {
@@ -148,7 +139,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 700px;
-  border: 3px dashed crimson;
 }
 
 .skiingtextlink {
@@ -158,8 +148,7 @@ img {
   font-size: 80px;
   margin-left: 400px;
   margin-right: 440px;
-  margin-top: 170px;
-  border: 3px dashed yellow;
+  padding-top: 170px;
 }
 
 .campingtextlink {
@@ -167,17 +156,15 @@ img {
   display: block;
   color: #025951;
   font-size: 80px;
-  margin-left: 400px;
+  margin-left: 350px;
   margin-right: 440px;
-  margin-top: 170px;
-  border: 3px dashed yellow;
+  padding-top: 130px;
 }
 .campingimagelink {
   background-image: url("../images/Bilder/camping.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 700px;
-  border: 3px dashed palevioletred;
 }
 
 .hikingtextlink {
@@ -187,8 +174,7 @@ img {
   font-size: 80px;
   margin-left: 400px;
   margin-right: 440px;
-  margin-top: 80px;
-  border: 3px dashed yellow;
+  padding-top: 20px;
 }
 
 .hikingimagelink {
@@ -196,7 +182,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 700px;
-  border: 3px dashed greenyellow;
 }
 
 .menheader {
@@ -295,20 +280,17 @@ img {
 .chosenproductflex {
   display: flex;
   padding-top: 60px;
-  border: 3px dashed orange;
 }
 
 .productimage {
   flex: 1;
   height: 514px;
   width: 642px;
-  border: 3px dashed purple;
 }
 
 .productheading {
   flex: 1;
   color: #025951;
-  border: 3px dashed yellowgreen;
 }
 
 .productheading h1 {
@@ -402,7 +384,6 @@ img {
   height: 125px;
   background-color: #025951;
   font-size: 25px;
-  border: 3px dashed hotpink;
 }
 
 .shoppingcartheader h1 {
@@ -412,7 +393,6 @@ img {
 .youritems {
   height: 300px;
   background: white;
-  border: 3px dashed blue;
   color: #025951;
   display: flex;
 }
@@ -466,7 +446,6 @@ img {
 .proceedtocheckoutdiv {
   background: #025951;
   height: 150px;
-  border: 3px dashed limegreen;
 }
 
 .proceed {
@@ -477,7 +456,6 @@ img {
   border: 2px solid #0b3a40;
   color: #0b3a40;
   display: block;
-  margin-top: 50px;
   margin-left: 910px;
   margin-right: 10px;
 }
