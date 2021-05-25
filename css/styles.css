@@ -87,6 +87,10 @@ footer {
   text-align: center;
 }
 
+.footerlinks {
+  color: white;
+}
+
 footer::before,
 footer::after {
   content: "/";
