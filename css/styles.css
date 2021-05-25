@@ -88,7 +88,7 @@ footer {
 }
 
 .footerlinks {
-  color: white;
+  text-decoration: none;
 }
 
 footer::before,
