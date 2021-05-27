@@ -284,6 +284,15 @@ img {
   display: block;
 }
 
+.where {
+  color: #025951;
+  text-decoration: none;
+}
+
+.where a {
+  color: #025951;
+}
+
 /* PRODUCTPAGE */
 
 .disapearingcontainer {
