@@ -568,7 +568,7 @@ img {
 
 .form-error {
   display: none;
-  color: rgb(197, 123, 38);
+  color: rgb(238, 76, 70);
   font-size: 0.9rem;
   margin-top: 2px;
 }
@@ -581,7 +581,6 @@ img {
   background: green;
   padding: 1rem;
   color: white;
-  border-radius: 1rem;
   margin-bottom: 1rem;
 }
 
