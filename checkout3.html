@@ -57,80 +57,77 @@
        <p><a class="progressbaractive" id="progressbarsuperactive">Step 1: Your name and address &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a>Step 2: Choose your paymentmethod &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a>Step 3: Paymentdetails &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a>4: Finish</a></p>
     </div>
     <section>
-      <form action="form-success.php" method="POST">
-        <fieldset>
-          <legend class="yourinformation">Your information</legend>
-          <label for="firstname">First name:</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="form__input"
-            required
-          />
+      <div class="contactdiv">
+        <form id="contactForm">
+            <div>
+                <label>
+                    Firstname
+                <input name="firstname" id="firstname" placeholder="Firstname" />
+                </label>
+                <div class="form-error" id="firstNameError">Please enter your firstname</div>
+            </div>
 
-          <label for="lastname">Last name:</label>
-          <input
-            type="text"
-            name="lastname"
-            id="name"
-            class="form__input"
-            required
-          />
+            <div>
+                <label>
+                    Lastname (minimum 10 characters)
+                <input name="lastname" id="lastname" placeholder="Lastname" />
+                </label>
+                <div class="form-error" id="lastNameError">Please enter your lastname</div>
+            </div>
 
-          <label for="adress">Adress:</label>
-          <input
-            type="text"
-            name="adress"
-            id="adress"
-            class="form__input"
-            required
-          />
+            <div>
+              <label>
+                  Streetadress
+              <input name="streetadress" id="streetadress" placeholder="Streetadress" />
+              </label>
+              <div class="form-error" id="StreetAdressError">Please enter your Streetadress</div>
+            </div>
 
-          <label for="postnr">Postnr:</label>
-          <input
-            type="number"
-            name="postnr"
-            id="postnr"
-            class="form__input"
-            required
-          />
+          <div>
+            <label>
+                Postnr.
+            <input name="Postnr" id="postnr" placeholder="Postnr" />
+            </label>
+            <div class="form-error" id="PostNrError">Please enter your postnr (4 digits)</div>
+          </div>
 
+          <div>
+          <label>
+            City
+          <input name="city" id="city" placeholder="City" />
+          </label>
+          <div class="form-error" id="CityError">Please enter your City</div>
+          </div>
 
-          <label for="city">City:</label>
-          <input
-            type="text"
-            name="city"
-            id="name"
-            class="form__input"
-            required
-          />
+          <div>
+          <label>
+          Country
+           <input name="country" id="country" placeholder="Country" />
+          </label>
+           <div class="form-error" id="CountryError">Please enter your Country</div>
+          </div>
 
-          <label for="country">Country:</label>
-          <input
-            type="text"
-            name="country"
-            id="name"
-            class="form__input"
-            required
-          />
+          <div>
+            <label>
+                Your PhoneNr.
+            <input name="phonenr" id="phonenr" placeholder="Your Phonenr." />
+            </label>
+            <div class="form-error" id="PhoneNrError">Please enter your phone nr.</div>
+        </div>
 
+            <div>
+                <label>
+                    Email (required)
+                <input name="email" id="email" placeholder="Email" />
+                </label>
+                <div class="form-error" id="emailError">Please enter a valid email adress</div>
+            </div>
 
-
-          <label for="phone">Your phonenumber:</label>
-          <input type="tel" name="phone" id="phone" class="form__input" />
-          <label for="email">Your email address:</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="form__input"
-            required
-          />
-
+            <button disabled>Submit</button>
+        </form>
+    </div>
           <a href="methodofpayment4.html" class="proceedtopayment">Proceed to payment</a>
-         
-
+    </section>
     <section class="totalsum">
       <div class="firstline">
         <p>Total sum:</p>
