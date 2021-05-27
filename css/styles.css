@@ -598,3 +598,18 @@ img {
   color: white;
   padding: 120px;
 }
+
+/* checkoutpages */
+
+#progressbar {
+  color: lightgrey;
+}
+
+.progressbaractive {
+  color: #025951;
+}
+
+.progressbarsuperactive {
+  font-size: larger;
+  color: #0b3a40;
+}
