@@ -599,7 +599,7 @@ img {
   padding: 120px;
 }
 
-/* checkoutpages */
+/* checkout3 */
 
 #progressbar {
   color: lightgrey;
@@ -612,4 +612,51 @@ img {
 #progressbarsuperactive {
   font-size: larger;
   color: #0b3a40;
+}
+
+#personalInformationForm {
+  padding: 2em;
+  border-radius: 2rem;
+}
+
+#personalInformationForm input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+#personalInformationForm button {
+  background: white;
+  border: none;
+  width: 100px;
+  padding: 10px;
+  color: #025951;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  margin-left: 750px;
+}
+
+#personalInformationForm label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-error {
+  display: none;
+  color: rgb(238, 76, 70);
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+#personalInformationForm button:disabled {
+  background: rgb(88, 87, 87);
+}
+
+.message {
+  background: green;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 1rem;
 }

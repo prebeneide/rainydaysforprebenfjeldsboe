@@ -57,20 +57,20 @@
        <p><a class="progressbaractive" id="progressbarsuperactive">Step 1: Your name and address &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a>Step 2: Choose your paymentmethod &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a>Step 3: Paymentdetails &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a>4: Finish</a></p>
     </div>
     <section>
-      <div class="contactdiv">
-        <form id="contactForm">
+      <div class="personalInformationDiv">
+        <form id="personalInformationForm">
             <div>
                 <label>
                     Firstname
-                <input name="firstname" id="firstname" placeholder="Firstname" />
+                <input name="firstname" id="firstName" placeholder="Firstname" />
                 </label>
                 <div class="form-error" id="firstNameError">Please enter your firstname</div>
             </div>
 
             <div>
                 <label>
-                    Lastname (minimum 10 characters)
-                <input name="lastname" id="lastname" placeholder="Lastname" />
+                    Lastname
+                <input name="lastname" id="lastName" placeholder="Lastname" />
                 </label>
                 <div class="form-error" id="lastNameError">Please enter your lastname</div>
             </div>
@@ -78,7 +78,7 @@
             <div>
               <label>
                   Streetadress
-              <input name="streetadress" id="streetadress" placeholder="Streetadress" />
+              <input name="streetadress" id="streetAdress" placeholder="Streetadress" />
               </label>
               <div class="form-error" id="StreetAdressError">Please enter your Streetadress</div>
             </div>
@@ -86,7 +86,7 @@
           <div>
             <label>
                 Postnr.
-            <input name="Postnr" id="postnr" placeholder="Postnr" />
+            <input name="Postnr" id="postNr" placeholder="Postnr" />
             </label>
             <div class="form-error" id="PostNrError">Please enter your postnr (4 digits)</div>
           </div>
@@ -109,18 +109,18 @@
 
           <div>
             <label>
-                Your PhoneNr.
-            <input name="phonenr" id="phonenr" placeholder="Your Phonenr." />
+                Your phonenr.
+            <input name="phonenr" id="phoneNr" placeholder="Your phonenr." />
             </label>
             <div class="form-error" id="PhoneNrError">Please enter your phone nr.</div>
         </div>
 
             <div>
                 <label>
-                    Email (required)
+                    Your Email 
                 <input name="email" id="email" placeholder="Email" />
                 </label>
-                <div class="form-error" id="emailError">Please enter a valid email adress</div>
+                <div class="form-error" id="EmailError">Please enter a valid email adress</div>
             </div>
 
             <button disabled>Submit</button>
@@ -149,4 +149,5 @@
     <p>All rights reserved</p>
     <p>Rainy Days Official</p>
   </footer>
+  <script src="js/checkout3.js"></script>
 </body>
