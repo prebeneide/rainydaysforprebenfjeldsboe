@@ -114,9 +114,9 @@ function checkCityField() {
 
 function checkEmailField() {
       if (validateEmail(email.value)) {
-          emailError.style.display = "none";
+          EmailError.style.display = "none";
       } else {
-          emailError.style.display = "block";
+          EmailError.style.display = "block";
       }
 }
 
