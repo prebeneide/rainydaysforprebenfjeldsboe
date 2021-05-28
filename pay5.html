@@ -62,19 +62,50 @@
           <legend class="yourinformation">Credit Card Information</legend>
 
 <section>
-  <form>
-    <label for="creditcard">Credit Card Number:</label>
-          <input type="creditcard" name="creditcard" id="creditcard" class="form__input" />
-          <label for="nameoncard">Name on Card:</label>
-          <input type="nameoncard" name="nameoncard" id="nameoncard" class="form__input" />
-          <label for="expirationdate">Expiration Month:</label>
-          <input type="expirationmonth" name="expirationmonth" id="expirationmonth" class="expirationmonth" />
-          <label for="expirationyear">Expiration Year:</label>
-          <input type="expirationyear" name="expirationyear" id="expirationyear" class="expirationyear" />
-          <label for="cvc">CVC:</label>
-          <input type="cvc" name="cvc" id="cvc" class="cvc" />
-          <a href="ordercompleted6.html" class="proceedtopayment">Make Payment</a>
-  </form>
+  <div class="personalInformationDiv">
+    <form id="personalInformationForm" action="methodofpayment4.html">
+        <div>
+            <label>
+                Name on card
+            <input name="nameoncard" id="nameOnCard" placeholder="Name on card" />
+            </label>
+            <div class="form-error" id="nameOnCardError">Please enter the name on card</div>
+        </div>
+
+        <div>
+          <label>
+              Cardnumber
+          <input name="cardnr" id="cardNr" placeholder="Cardnumber" />
+          </label>
+          <div class="form-error" id="cardNrError">Please enter a valid cardnumber</div>
+      </div>
+
+      <div>
+        <label>
+            Expirary Month
+        <input name="expirarymonth" id="expiraryMonth" placeholder="00" />
+        </label>
+        <div class="form-error" id="expiraryMonthError">Please enter 2 digits</div>
+    </div>
+
+    <div>
+      <label>
+          Expirary Year
+      <input name="expiraryyear" id="expiraryYear" placeholder="00" />
+      </label>
+      <div class="form-error" id="expiraryYearError">Please enter 2 digits</div>
+  </div>
+
+      <div>
+        <label>
+            CVC
+        <input name="cvc" id="cvc" placeholder="CVC" />
+        </label>
+        <div class="form-error" id="cvcError">Please enter a valid cvc (3 digits)</div>
+      </div>
+
+      <button class="buybutton" disabled>Next</button>
+    </form>
   </section>
   <section class="totalsum">
     <div class="firstline">
@@ -85,7 +116,7 @@
     </div>
     <div class="secondline">
       <p>2.999,-</p>
-      <p>Free</p>
+      <p>Free &nbsp; &nbsp;</p>
       <p>2.999,-</p>
     </div>
   </section>
