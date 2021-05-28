@@ -12,7 +12,7 @@ const button = document.querySelector("button");
 
 
 function checkIfButtonIsDisabled() {
-    if (checkLength(firstName.value, 2) && checkLength(lastName.value, 2) && checkLength(streetAdress.value, 3) && checkLength(postNr.value, 4) && checkLength(city.value, 2) && checkLength(country.value, 2) && checkLength(phoneNr.value, 6) && validateEmail(email.value) && validatePhoneNr(phoneNr.value) && validatePostNr(postNr.value) {
+    if (checkLength(firstName.value, 2) && checkLength(lastName.value, 2) && checkLength(streetAdress.value, 3) && checkLength(postNr.value, 4) && checkLength(city.value, 2) && checkLength(country.value, 2) && checkLength(phoneNr.value, 6) && validateEmail(email.value) && validatePhoneNr(phoneNr.value) && validatePostNr(postNr.value)) {
         button.disabled = false;
     } else {
          message.innerHTML = "";
