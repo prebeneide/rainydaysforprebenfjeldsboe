@@ -30,18 +30,6 @@ phoneNr.addEventListener("keyup", checkIfButtonIsDisabled);
 email.addEventListener("keyup", checkIfButtonIsDisabled);
 
 
-function submitForm(event) {
-
-    event.preventDefault();    
-
-    message.innerHTML = '<div class="message">Your message has been sent</div>';
-   
-    form.reset();
-}
-
-form.addEventListener("submit", submitForm);
-
-//
 
 
 firstName.addEventListener("keyup", checkFirstNameField);
