@@ -324,7 +324,7 @@ img {
   margin-left: 10px;
 }
 
-.button {
+.buybutton {
   background: rgb(187, 236, 52);
   color: darkslategray;
   font-size: 15px;
@@ -722,4 +722,45 @@ img {
     bottom: 0;
     opacity: 0;
   }
+}
+
+#cardInformation {
+  padding: 2em;
+  border-radius: 2rem;
+}
+
+#cardInformation input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+#cardInformation button {
+  border: none;
+  width: 100px;
+  margin-top: 20px;
+  background: rgb(187, 236, 52);
+  color: darkslategray;
+  font-size: 15px;
+  padding: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#cardInformation label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-error {
+  display: none;
+  color: rgb(238, 76, 70);
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+#cardInformation button:disabled {
+  background: rgb(88, 87, 87);
 }
