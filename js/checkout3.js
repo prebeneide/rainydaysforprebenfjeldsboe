@@ -12,7 +12,7 @@ const button = document.querySelector("button");
 
 
 function checkIfButtonIsDisabled() {
-    if (checkLength(firstName.value, 2) && checkLength(lastName.value, 2) && checkLength(streetAdress.value, 3) && checkLength(postNr.value, 4) && checkLength(city.value, 2) && checkLength(country.value, 2) && checkLength(phoneNr.value, 6) && validateEmail(email.value)) {
+    if (checkLength(firstName.value, 2) && checkLength(lastName.value, 2) && checkLength(streetAdress.value, 3) && checkLength(postNr.value, 4) && checkLength(city.value, 2) && checkLength(country.value, 2) && checkLength(phoneNr.value, 6) && validateEmail(email.value) && validatePhoneNr(phoneNr.value) && validatePostNr(postNr.value) {
         button.disabled = false;
     } else {
          message.innerHTML = "";
@@ -80,7 +80,7 @@ function checkStreetAdressField() {
 
 
 function checkPostNrField() {
-    if (checkLength(postNr.value, 4)) {
+    if (checkLength(postNr.value, 4) && validatePostNr(postNr.value)) {
       PostNrError.style.display = "none";
       } else {
         PostNrError.style.display = "block";
@@ -95,21 +95,21 @@ function checkCityField() {
         }
       }
 
-      function checkCountryField() {
-        if (checkLength(country.value, 3)) {
-          CountryError.style.display = "none";
-          } else {
-            CountryError.style.display = "block";
-          }
-        }
+function checkCountryField() {
+  if (checkLength(country.value, 3)) {
+     CountryError.style.display = "none";
+      } else {
+         CountryError.style.display = "block";
+         }
+       }
 
-        function checkPhoneNrField() {
-          if (checkLength(phoneNr.value, 5)) {
-            PhoneNrError.style.display = "none";
-            } else {
-              PhoneNrError.style.display = "block";
-            }
-          }
+function checkPhoneNrField() {
+  if (validatePhoneNr(phoneNr.value)) {
+     PhoneNrError.style.display = "none";
+       } else {
+        PhoneNrError.style.display = "block";
+        }
+       }
 
 
 function checkEmailField() {
@@ -133,4 +133,16 @@ function validateEmail(email) {
     const regEx = /\S+@\S+\.\S+/;
     const patternMatches = regEx.test(email);
     return patternMatches;
+}
+
+function validatePhoneNr(phoneNr) {
+  const regEx = /^(?:(?:\(?(?:00|\+)([1-4]\d\d|[1-9]\d?)\)?)?[\-\.\ \\\/]?)?((?:\(?\d{1,}\)?[\-\.\ \\\/]?){0,})(?:[\-\.\ \\\/]?(?:#|ext\.?|extension|x)[\-\.\ \\\/]?(\d+))?$/;
+  const patternMatches = regEx.test(phoneNr);
+  return patternMatches;
+}
+
+function validatePostNr(postNr) {
+  const regEx = /^\d+$/;
+  const patternMatches = regEx.test(postNr);
+  return patternMatches;
 }
