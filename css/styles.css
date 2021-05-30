@@ -329,9 +329,12 @@ img {
   color: darkslategray;
   font-size: 15px;
   padding: 20px;
-  margin-left: 10px;
   text-decoration: none;
   cursor: pointer;
+}
+
+#morespaceonproceedtocheckoutbutton {
+  margin-left: 50px;
 }
 
 .str {
@@ -449,6 +452,7 @@ img {
   background-color: #025951;
   color: white;
   font-size: 20px;
+  padding-bottom: 30px;
 }
 
 .firstline {
@@ -551,15 +555,15 @@ img {
 }
 
 #contactForm button {
-  background: white;
-  border: none;
-  width: 100px;
-  padding: 10px;
-  color: #025951;
-  margin-top: 20px;
+  background: rgb(187, 236, 52);
+  color: darkslategray;
+  font-size: 15px;
+  padding: 20px;
+  text-decoration: none;
   cursor: pointer;
-  border-radius: 0.2rem;
-  margin-left: 750px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 650px;
 }
 
 #contactForm label {
@@ -655,32 +659,27 @@ img {
   margin-bottom: 1rem;
 }
 
-/* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar {
-  visibility: hidden; /* Hidden by default. Visible on click */
-  min-width: 250px; /* Set a default minimum width */
-  margin-left: -125px; /* Divide value of min-width by 2 */
-  background-color: rgb(187, 236, 52); /* Black background color */
-  color: darkslategray; /* White text color */
-  text-align: center; /* Centered text */
-  border-radius: 2px; /* Rounded borders */
-  padding: 16px; /* Padding */
-  position: fixed; /* Sit on top of the screen */
-  z-index: 1; /* Add a z-index if needed */
-  left: 50%; /* Center the snackbar */
-  bottom: 30px; /* 30px from the bottom */
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(187, 236, 52);
+  color: darkslategray;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
 }
 
-/* Show the snackbar when clicking on a button (class added with JavaScript) */
 #snackbar.show {
-  visibility: visible; /* Show the snackbar */
-  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
-  However, delay the fade out process for 2.5 seconds */
+  visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
-/* Animations to fade the snackbar in and out */
 @-webkit-keyframes fadein {
   from {
     bottom: 0;
